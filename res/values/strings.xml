@@ -264,4 +264,9 @@
 
     <!-- The title for the tab with icons packs. [CHAR_LIMIT=20]-->
     <string name="icon_pack_title">System Icon Packs</string>
+
+    <!-- The title for the tab with font packs. [CHAR_LIMIT=20]-->
+    <string name="font_title">System fonts</string>
+    <!-- The content description of font pack entry. [CHAR LIMIT=NONE] -->
+    <string name="font_preview_card_content_description">Font Preview</string>
 </resources>
