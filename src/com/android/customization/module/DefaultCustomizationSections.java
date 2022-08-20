@@ -47,6 +47,10 @@ public final class DefaultCustomizationSections implements CustomizationSections
                 workspaceViewModel, sectionNavigationController, wallpaperPreviewNavigator,
                 savedInstanceState));
 
+        // Color section.
+        sectionControllers.add(new ColorSectionController(
+                activity, wallpaperColorsViewModel, lifecycleOwner, savedInstanceState));
+
         // Dark/Light theme section.
         sectionControllers.add(new DarkModeSectionController(activity,
                 lifecycleOwner.getLifecycle()));
